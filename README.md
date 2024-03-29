@@ -8,7 +8,6 @@ These four fields are stored:
  - Email Address (validated format)
  - Additional Information
 
-Using the System
 The system will greet you with a welcome message and display a menu. You can choose from the following options:
 (Note: Options 2 through 6 will be disabled if there are no contacts yet)
 1. Add a new contact
