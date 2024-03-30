@@ -20,4 +20,5 @@ The system will greet you with a welcome message and display a menu. You can cho
 
 Follow the prompts to interact with the system and manage your contacts.
 
+Adding contacts...
 <img width="650" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/8b63b436-0e0a-4f74-a70f-ef01522a38c6">
