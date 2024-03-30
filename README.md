@@ -32,3 +32,5 @@ Export contacts to a text file (choice 6... Exports to contacts.txt)
 
 <img width="464" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/18d6f7f5-93da-4ca4-96b7-55f6be076af3">
 
+Link to GitHub repository 
+https://github.com/alberto-it/Contact-Mgmt-System
