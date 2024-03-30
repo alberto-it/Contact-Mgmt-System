@@ -28,9 +28,8 @@ Display all contacts (choice 5)...
 
 <img width="477" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/7b7ce298-09e8-406c-979c-fd4ef64896bc">
 
-Export contacts to a text file (choice 6)...
+Export contacts to a text file (choice 6... Exports to contacts.txt)
 
-[Uploading contacts.txt…]()
 Name:	John Doe
 Phone:	555-555-5555
 Email:	john.doe@email.com
