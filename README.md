@@ -1,6 +1,6 @@
 # Contact Management System
 
-This Python program allows you to manage your contacts with features like adding, editing, deleting, searching, displaying all contacts, and exporting them to a text file called contacts.txt. Phone numbers are used as unique identifiers for contacts in this system, so this system will not allow duplicate phone numbers.
+This Python program allows users to manage their contacts with features like adding, editing, deleting, searching, displaying all contacts, and exporting all contacts to a text file called contacts.txt. Phone numbers are used as unique identifiers in this system, so a feature to not allow duplicate phone numbers was added.
 
 These four fields are stored:
  - Name
@@ -8,8 +8,8 @@ These four fields are stored:
  - Email Address (validated format)
  - Additional Information
 
-The system will greet you with a welcome message and display a menu. You can choose from the following options:
-(Note: Options 2 through 6 will be disabled if there are no contacts yet)
+The system will greet the user with a welcome message and display a menu.
+The user can choose from the following options (note: 2 through 6 will be disabled to start):
 1. Add a new contact
 2. Edit an existing contact
 3. Delete a contact 
@@ -18,7 +18,7 @@ The system will greet you with a welcome message and display a menu. You can cho
 6. Export contacts to a text file 
 7. Quit
 
-Follow the prompts to interact with the system and manage your contacts.
+Follow the prompts to interact with the system and manage contacts.
 
 Adding contacts (choice 1)...
 
@@ -32,5 +32,5 @@ Export contacts to a text file (choice 6... Exports to contacts.txt)
 
 <img width="464" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/18d6f7f5-93da-4ca4-96b7-55f6be076af3">
 
-Link to GitHub repository 
+Link to GitHub repository: 
 https://github.com/alberto-it/Contact-Mgmt-System
