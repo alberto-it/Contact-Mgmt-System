@@ -1,13 +1,5 @@
 import re
 
-def is_valid_phone(phone):
-    pattern = r"^\d{3}-\d{3}-\d{4}$"
-    return bool(re.match(pattern, phone))
-
-def is_valid_email(email):
-    pattern = r"[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[a-z]{2,}"
-    return bool(re.match(pattern, email))
-
 def get_user_choice():
     print("Menu:")
     print(" 1. Add a new contact")
@@ -35,6 +27,14 @@ def get_user_choice():
         except ValueError:
                 print("\nInvalid input. Please enter a number\n")
 
+def is_valid_phone(phone):
+    pattern = r"^\d{3}-\d{3}-\d{4}$"
+    return bool(re.match(pattern, phone))
+
+def is_valid_email(email):
+    pattern = r"[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[a-z]{2,}"
+    return bool(re.match(pattern, email))
+    
 def add_contact():
     name = input("\nEnter contact name: ")
     phone = input("\nEnter phone number (XXX-XXX-XXXX): ")
