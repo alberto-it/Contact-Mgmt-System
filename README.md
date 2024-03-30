@@ -1,4 +1,4 @@
-# Contact-Mgmt-System
+# Contact Management System
 
 This Python program allows you to manage your contacts with features like adding, editing, deleting, searching, displaying all contacts, and exporting them to a text file called contacts.txt. Phone numbers are used as unique identifiers for contacts in this system, so this system will not allow duplicate phone numbers.
 
