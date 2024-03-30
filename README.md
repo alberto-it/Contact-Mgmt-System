@@ -30,29 +30,5 @@ Display all contacts (choice 5)...
 
 Export contacts to a text file (choice 6... Exports to contacts.txt)
 
-Name:	John Doe
-Phone:	555-555-5555
-Email:	john.doe@email.com
-Info:	This is some additional info about John
-
-Name:	Jane Doe
-Phone:	123-456-7890
-Email:	Jane.Doe@gmail.com
-Info:	All work and no play makes Jane a dull girl
-
-Name:	Fiona Ogre
-Phone:	555-123-1234
-Email:	Fiona@swamp.com
-Info:	Enjoys spending time with Donkey and going on adventures.
-
-Name:	Lord Farquaad
-Phone:	800-123-1234
-Email:	LF@king.com
-Info:	Has a loud laugh and loves waffles.
-
-Name:	Puss in Boots
-Phone:	212-928-8984
-Email:	Puss@meow.org
-Info:	 A skilled swordsman and master of cuteness.
-
+<img width="464" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/18d6f7f5-93da-4ca4-96b7-55f6be076af3">
 
