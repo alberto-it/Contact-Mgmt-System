@@ -51,7 +51,7 @@ def add_contact():
 def edit_contact():
     phone = input("\nEnter phone number of the contact to edit: ")
     if phone not in contacts:
-        print("\nContact phone # not found!")
+        print("\nContact phone # not found!\n")
     else:
         contact = contacts[phone]
         print(f"\nEditing: {contact}")
