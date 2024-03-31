@@ -37,6 +37,5 @@ Export contacts to a csv file (choice #7)...
 
 <img width="1002" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/2114c643-6077-4597-8381-04399d77f9b3">
 
-
 GitHub repository: 
 https://github.com/alberto-it/Contact-Mgmt-System
