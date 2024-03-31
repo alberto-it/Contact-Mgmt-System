@@ -3,27 +3,28 @@ import re
 def get_user_choice():
     print("Menu:")
     print(" 1. Add a new contact")
-    print(" 2. Edit an existing contact")        if contacts else  ""
-    print(" 3. Delete a contact")                if contacts else  ""
-    print(" 4. Search for a contact")            if contacts else  ""
-    print(" 5. Display all contacts")            if contacts else  ""
-    print(" 6. Export contacts to a text file")  if contacts else  ""
-    print(" 7. Quit")
+    print(" 2. Edit an existing contact")       if contacts else  ""
+    print(" 3. Delete a contact")               if contacts else  ""
+    print(" 4. Search for a contact")           if contacts else  ""
+    print(" 5. Display all contacts")           if contacts else  ""
+    print(" 6. Export contacts to a text file") if contacts else  ""
+    print(" 7. Export contacts to a csv file")  if contacts else  ""
+    print(" 8. Quit")
 
     while True:
         try:
             if not contacts:
-                choice = int(input("\nEnter 1 to Add New Contact, or 7 to Quit: "))
-                if choice != 1 and choice != 7:
-                    print(f"\nSorry. Only valid choices at this point are 1 or 7!\n")
+                choice = int(input("\nEnter 1 to Add New Contact, or 8 to Quit: "))
+                if choice != 1 and choice != 8:
+                    print(f"\nSorry. Only valid choices at this point are 1 or 8!\n")
                 else:
                     return choice
             else:
-                choice = int(input("\nEnter your choice (1-7): "))
-                if 1 <= choice <= 7:
+                choice = int(input("\nEnter your choice (1-8): "))
+                if 1 <= choice <= 8:
                     return choice
                 else:
-                    print(f"\nInvalid choice. Please enter a number between 1 and 7\n")
+                    print(f"\nInvalid choice. Please enter a number between 1 and 8\n")
         except ValueError:
                 print("\nInvalid input. Please enter a number\n")
 
@@ -34,7 +35,7 @@ def is_valid_phone(phone):
 def is_valid_email(email):
     pattern = r"[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[a-z]{2,}"
     return bool(re.match(pattern, email))
-    
+
 def add_contact():
     name = input("\nEnter contact name: ")
     phone = input("\nEnter phone number (XXX-XXX-XXXX): ")
@@ -54,7 +55,7 @@ def edit_contact():
         print("\nContact phone # not found!\n")
     else:
         contact = contacts[phone]
-        print(f"\nEditing: {contact}")
+        print_contact(phone)
         name = input("\nEnter new name (or enter to not change): ")
         if name: contact["name"] = name
         email = input("\nEnter new email address (or enter to not change): ")
@@ -94,7 +95,7 @@ def display_all_contacts():
         print_contact(phone)
     print("-" * 30)
 
-def export_contacts():
+def export_to_txt():
     try:
         with open("contacts.txt", "w") as file:
             for phone, contact in contacts.items():
@@ -106,13 +107,24 @@ def export_contacts():
     except IOError:
         print("\nAn error occurred while exporting contacts\n")
 
+def export_to_csv():
+    try:
+        with open("contacts.csv", "w") as file:
+            file.write("Name,Phone Number,Email Address,Additional Information\n")
+            for phone, contact in contacts.items():
+                file.write(f"{contact['name']},{phone},{contact['email']},{contact['info']}\n")
+            print("\nContacts exported successfully to contacts.csv!\n")
+    except IOError:
+        print("\nAn error occurred while exporting contacts\n")
+
 menu = {
     1: add_contact,
     2: edit_contact,
     3: delete_contact,
     4: search_contact,
     5: display_all_contacts,
-    6: export_contacts
+    6: export_to_txt,
+    7: export_to_csv
 }
 
 print("\nWelcome to the Contact Management System!\n")
@@ -122,7 +134,7 @@ contacts = {}  #Global Dictionary
 while True:
     choice = get_user_choice()
 
-    if choice == 7:  
+    if choice == 8:  
         print("\nExiting the Contact Management System...\n")
         break 
     else:
