@@ -24,5 +24,7 @@ Adding contact (choice #1)...
 
 <img width="571" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/a71b021f-ee35-44db-b41b-ac1d13846bb6">
 
+Edit contact (choice #2) and display all contacts (choice #5)...
 
+<img width="571" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/51070b42-6cc7-42c2-9f80-399b515920f0">
 
