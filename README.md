@@ -20,17 +20,7 @@ The user can choose from the following options (note: 2 through 6 will be disabl
 
 Follow the prompts to interact with the system and manage contacts.
 
-Adding contacts (choice 1)...
+Adding contact, editing contact, deleting contact, exiting system...
 
-<img width="650" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/8b63b436-0e0a-4f74-a70f-ef01522a38c6">
+<img width="548" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/b5650a36-fe75-452b-bbc8-0b6697439139">
 
-Display all contacts (choice 5)...
-
-<img width="477" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/7b7ce298-09e8-406c-979c-fd4ef64896bc">
-
-Export contacts to a text file (choice 6... Exports to contacts.txt)
-
-<img width="464" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/18d6f7f5-93da-4ca4-96b7-55f6be076af3">
-
-Link to GitHub repository: 
-https://github.com/alberto-it/Contact-Mgmt-System
