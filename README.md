@@ -20,7 +20,9 @@ The user can choose from the following options (note: 2 through 6 will be disabl
 
 Follow the prompts to interact with the system and manage contacts.
 
-Adding contact, editing contact, deleting contact, exiting system...
+Adding contact (choice #1)...
 
-<img width="548" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/b5650a36-fe75-452b-bbc8-0b6697439139">
+<img width="571" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/a71b021f-ee35-44db-b41b-ac1d13846bb6">
+
+
 
