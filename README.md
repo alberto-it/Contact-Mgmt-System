@@ -1,6 +1,6 @@
 # Contact Management System
 
-This Python program allows users to manage their contacts with features like adding, editing, deleting, searching, displaying all contacts, and exporting all contacts to a text file called contacts.txt or to a csv file called contacts.csv. Phone numbers are used as unique identifiers in this system, so a feature to not allow duplicate phone numbers was added.
+This Python program allows users to manage their contacts with features like adding, editing, deleting, searching, displaying all contacts, and exporting all contacts to a text file called contacts.txt or to a csv file called contacts.csv. Phone numbers are used as unique identifiers in this system, so a feature to prevent duplicate phone numbers (i.e. overwriting contact data) was added.
 
 These four fields are stored:
  - Name
@@ -36,3 +36,6 @@ Export contacts to a text file (choice #6)...
 Export contacts to a csv file (choice #7)...
 
 <img width="1002" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/2114c643-6077-4597-8381-04399d77f9b3">
+
+GitHub repository: 
+https://github.com/alberto-it/Contact-Mgmt-System
