@@ -15,8 +15,9 @@ The user can choose from the following options (note: 2 through 6 will be disabl
 3. Delete a contact 
 4. Search for a contact 
 5. Display all contacts 
-6. Export contacts to a text file 
-7. Quit
+6. Export contacts to a text file
+7. Export contacts to a csv file
+8. Quit
 
 Follow the prompts to interact with the system and manage contacts.
 
@@ -28,3 +29,10 @@ Edit contact (choice #2) and display all contacts (choice #5)...
 
 <img width="571" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/51070b42-6cc7-42c2-9f80-399b515920f0">
 
+Export contacts to a text file (choice #6)...
+
+<img width="439" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/d2dc4cc0-5fc2-4a68-a5c2-bc8e29e65a4c">
+
+Export contacts to a csv file (choice #7)...
+
+<img width="1002" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/2114c643-6077-4597-8381-04399d77f9b3">
