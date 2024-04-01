@@ -23,7 +23,7 @@ The user follows the prompts to interact with the system to manage contacts.
 
 Adding contact (choice #1)...
 
-<img width="571" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/a71b021f-ee35-44db-b41b-ac1d13846bb6">
+<img width="557" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/c57f0a40-515f-46b1-8f9e-a2a5ee45d286">
 
 Edit contact (choice #2) and display all contacts (choice #5)...
 
