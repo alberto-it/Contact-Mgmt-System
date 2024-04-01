@@ -21,7 +21,7 @@ The user can choose from the following options (note: 2 through 7 will be disabl
 
 The user follows the prompts to interact with the system to manage contacts.
 
-Adding contact (choice #1)...
+Adding contact (choice #1) and edit contact (choice #2)...
 
 <img width="557" alt="image" src="https://github.com/alberto-it/Contact-Mgmt-System/assets/56044114/c57f0a40-515f-46b1-8f9e-a2a5ee45d286">
 
