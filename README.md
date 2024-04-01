@@ -4,7 +4,7 @@ This Python program allows users to manage their contacts with features like add
 
 These four fields are stored:
  - Name
- - Phone Number (Key; validated format: XXX-XXX-XXXX)
+ - Phone Number (key; validated format: XXX-XXX-XXXX)
  - Email Address (validated format)
  - Additional Information
 
