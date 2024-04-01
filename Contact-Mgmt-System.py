@@ -86,8 +86,11 @@ def edit_contact():
         if email: contact["email"] = email
         info = input("\nEnter new additional information (or enter to not change): ")
         if info: contact["info"] = info
-        print_contact(phone)
-        print("\nContact updated successfully!\n")
+        if name or email or info:
+            print_contact(phone)
+            print("\nContact updated successfully!\n")
+        else:
+            print("\nContact data unchanged!\n")
 
 def delete_contact():
     phone = input("\nEnter phone number of the contact to delete: ")
@@ -122,7 +125,7 @@ def export_to_txt():
                 file.write(f"Info:\t{contact['info']}\n\n")
             print("\nContacts exported successfully to contacts.txt!\n")
     except IOError:
-        print("\nAn error occurred while exporting contacts\n")
+        print("\nAn error occurred while exporting contacts!\n")
 
 def export_to_csv():
     try:
@@ -132,7 +135,7 @@ def export_to_csv():
                 file.write(f"{contact['name']},{phone},{contact['email']},{contact['info']}\n")
             print("\nContacts exported successfully to contacts.csv!\n")
     except IOError:
-        print("\nAn error occurred while exporting contacts\n")
+        print("\nAn error occurred while exporting contacts!\n")
 
 menu = {
     1: add_contact,
