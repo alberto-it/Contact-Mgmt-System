@@ -36,6 +36,20 @@ def is_valid_email(email):
     pattern = r"[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[a-z]{2,}"
     return bool(re.match(pattern, email))
 
+def print_contact(phone):
+    print("-" * 30)
+    print(" Name:\t", contacts[phone]['name'])
+    print(" Phone:\t", phone)
+    print(" Email:\t", contacts[phone]['email'])
+    print(" Info:\t", contacts[phone]['info'])
+
+def print_contact(phone):
+    print("-" * 30)
+    print(" Name:\t", contacts[phone]['name'])
+    print(" Phone:\t", phone)
+    print(" Email:\t", contacts[phone]['email'])
+    print(" Info:\t", contacts[phone]['info'])
+
 def add_contact():
     name = input("\nEnter contact name: ")
     phone = input("\nEnter phone number (XXX-XXX-XXXX): ")
@@ -47,7 +61,15 @@ def add_contact():
         email = input("Invalid Email Address. Please eneter a valid email address: ")
     info = input("\nEnter any additional information: ")
     contacts[phone] = {"name": name, "email": email, "info": info}
-    print("\nContact", name, "added successfully!\n")
+    print_contact(phone)
+    print("\nContact added successfully!\n")
+
+def print_contact(phone):
+    print("-" * 30)
+    print(" Name:\t", contacts[phone]['name'])
+    print(" Phone:\t", phone)
+    print(" Email:\t", contacts[phone]['email'])
+    print(" Info:\t", contacts[phone]['info'])
 
 def edit_contact():
     phone = input("\nEnter phone number of the contact to edit: ")
@@ -64,22 +86,17 @@ def edit_contact():
         if email: contact["email"] = email
         info = input("\nEnter new additional information (or enter to not change): ")
         if info: contact["info"] = info
+        print_contact(phone)
         print("\nContact updated successfully!\n")
 
 def delete_contact():
     phone = input("\nEnter phone number of the contact to delete: ")
     if phone in contacts:
+        print_contact(phone)
         del contacts[phone]
         print("\nContact deleted successfully!\n")
     else:
         print("\nContact not found!\n")
-
-def print_contact(phone):
-    print("-" * 30)
-    print(" Name:\t", contacts[phone]['name'])
-    print(" Phone:\t", phone)
-    print(" Email:\t", contacts[phone]['email'])
-    print(" Info:\t", contacts[phone]['info'])
 
 def search_contact():
     phone = input("\nEnter phone number of the contact to search for: ")
