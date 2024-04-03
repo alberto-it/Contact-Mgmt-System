@@ -43,13 +43,6 @@ def print_contact(phone):
     print(" Email:\t", contacts[phone]['email'])
     print(" Info:\t", contacts[phone]['info'])
 
-def print_contact(phone):
-    print("-" * 30)
-    print(" Name:\t", contacts[phone]['name'])
-    print(" Phone:\t", phone)
-    print(" Email:\t", contacts[phone]['email'])
-    print(" Info:\t", contacts[phone]['info'])
-
 def add_contact():
     name = input("\nEnter contact name: ")
     phone = input("\nEnter phone number (XXX-XXX-XXXX): ")
@@ -58,7 +51,7 @@ def add_contact():
         phone = input("Please enter a valid number (XXX-XXX-XXXX): ")
     email = input("\nEnter email address: ")
     while not is_valid_email(email):
-        email = input("Invalid Email Address. Please eneter a valid email address: ")
+        email = input("Invalid Email Address. Please enter a valid email address: ")
     info = input("\nEnter any additional information: ")
     contacts[phone] = {"name": name, "email": email, "info": info}
     print_contact(phone)
